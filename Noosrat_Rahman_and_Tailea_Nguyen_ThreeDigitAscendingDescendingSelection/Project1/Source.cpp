@@ -17,12 +17,13 @@ void pause() {
 
 void main() {
 	int x, a, b, c;
+for (int i=0 ; i<30; i++) {
 	cout << " Give me a three digit number." << "\n";
 	cin >> x;
 	a = (x / 100);
 	b = (x % 100) / 10;
 	c = (x % 10);
-	
+	//number is divided
 	if (a > b && b > c) {
 		cout << " Descending ";
 	}
@@ -33,7 +34,7 @@ void main() {
 	else {
 		cout << "Neither";
 	}
-
+}
 
 		
 
